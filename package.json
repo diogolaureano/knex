@@ -1,0 +1,27 @@
+{
+    "name": "knex",
+    "version": "1.0.0",
+    "description": "Conhecendo o Knex",
+    "main": "src/server.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "knex": "^0.95.9",
+        "nodemon": "^2.0.12",
+        "pg": "^8.7.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/diogolaureano/knex.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/diogolaureano/knex/issues"
+    },
+    "homepage": "https://github.com/diogolaureano/knex#readme"
+}
