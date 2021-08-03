@@ -7,11 +7,8 @@ module.exports = {
 
         return res.json(results)
     },
-
     async create(req, res, next) {
-
         const { username } = req.body
-
         try {
             const { username } = req.body
             await knex('users').insert({
@@ -32,7 +29,6 @@ module.exports = {
                 .where({ id })
 
             return res.send()
-
         } catch (error) {
             next(error)
         }
@@ -45,7 +41,6 @@ module.exports = {
                 .del()
 
             return res.send()
-
         } catch (error) {
             next(error)
         }
