@@ -8,7 +8,7 @@ exports.up = knex => knex.schema.createTable('projects', table => {
         .notNullable()
         .onDelete('CASCADE')
 
-    table.timestamps(true, true)
+    table.timestamp(true, true)
 })
 
 
